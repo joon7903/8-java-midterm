@@ -1,4 +1,3 @@
-
 public class LibraryBook implements Book {
 	private String isbn;
 	private String title;
