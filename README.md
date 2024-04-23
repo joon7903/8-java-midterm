@@ -15,7 +15,7 @@ Use the files provided and the book's code to help.
 
 ## 파일 설명
 
-**Book.java**
+**`Book.java`**
 
 Create a Book Interface and add the following function definitions.
 Book 인터페이스를 만들고 다음 함수 정의를 추가하세요.
@@ -29,7 +29,7 @@ boolean isAvailable();
 void setAvailable(boolean available);
 ```
 
-**LibraryBook.java**
+**`LibraryBook.java`**
 
 Create a LibraryBook class that implements the Book interface. Add the following instance variables and methods.
 Book 인터페이스를 구현하는 LibraryBook 클래스를 만드세요. 다음 인스턴스 변수와 메소드를 추가하세요.
@@ -58,7 +58,7 @@ public boolean isAvailable(); // return available
 public void setAvailable(boolean available);
 ```
 
-**LibrarySystem.java**
+**`LibrarySystem.java`**
 
 Create a LibrarySystem class that contains a list of LibraryBook objects. Add the following instance variables and methods.
 LibraryBook 객체 목록을 포함하는 LibrarySystem 클래스를 만드세요. 다음 인스턴스 변수와 메소드를 추가하세요.
@@ -109,7 +109,7 @@ public void displayBooks() {
 }
 ```
 
-**Main.java**
+**`Main.java`**
 
 Test your code with the provided `Main.java` file.
 제공된 `Main.java` 파일로 코드를 테스트하세요.
